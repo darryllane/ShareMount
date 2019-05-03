@@ -1,5 +1,10 @@
 **ShareMount**
 -----
+
+![GitHub issues](https://img.shields.io/github/issues/darryllane/Sharemount.svg)
+
+[![PyPI version](https://badge.fury.io/py/ShareMount.svg)](https://badge.fury.io/py/ShareMount)
+
 **Mount Shares on Linux and MacOS**
  
 >Author: Darryl Lane  |  Twitter: @darryllane101
@@ -25,17 +30,17 @@ Note: To test if pip is already installed execute.
 
 **Example:**
 
-			**Initialse Class**	
+**Initialse Class**	
 			
-			remote = '//remote/share/path'
+		remote = '//remote/share/path'
 			
-			share = Mount(mount_remote)
+		share = Mount(mount_remote)
 			
-			**Mount Share**
+**Mount Share**
 			
 			share._mount()
 			
-			**Unmount Share**
+**Unmount Share**
 			
 			share._un_mount()
 
