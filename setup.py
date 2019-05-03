@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ShareMount',
-    version='0.1b.0dev',
+    version='0.5b.0dev',
     author='Darryl lane',
     author_email='DarrylLane101@gmail.com',
     packages=['ShareMount'],
@@ -13,6 +13,6 @@ setup(
     ''',
     long_description=open('README.md').read(),
     
-    scripts=['ShareMount.py']
+    scripts=['ShareMount/ShareMount.py']
 )
 
