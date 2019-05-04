@@ -30,19 +30,16 @@ Note: To test if pip is already installed execute.
 
 **Example:**
 
-**Initialse Class**	
+    # import library
+    from ShareMount import ShareMount as initiate
     
-    remote = '//remote/share/path'
-    share = Mount(mount_remote=remote)
+    # initialse Class
+    share = initiate.Mount(mount_remote='//remote/share/path')
     
-			
-**Mount Share**
-    
+    # mount share
     share._mount()
     
-			
-**Unmount Share**
-    
+    # unmount Share**
     share._un_mount()
     
 
