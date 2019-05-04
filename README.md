@@ -31,19 +31,20 @@ Note: To test if pip is already installed execute.
 **Example:**
 
 **Initialse Class**	
-			
-		remote = '//remote/share/path'
-			
-		share = Mount(mount_remote)
+    
+    remote = '//remote/share/path'
+    share = Mount(mount_remote=remote)
+    
 			
 **Mount Share**
-			
-			share._mount()
+    
+    share._mount()
+    
 			
 **Unmount Share**
-			
-			share._un_mount()
-
+    
+    share._un_mount()
+    
 
 Change/Feature Requests
 ====
@@ -51,5 +52,7 @@ Change/Feature Requests
 
 Changelog
 ====
+* Version __0.6b.0dev__ (__04/05/2019__):
+  * Linux bug fis
 * Version __0.1b.0dev__ (__03/05/2019__):
   * init
