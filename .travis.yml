@@ -1,0 +1,14 @@
+language: python
+python:
+  - 3.6
+ 
+os:
+    - linux
+  
+virtualenv:
+  system_site_packages: true
+  
+# command to run tests
+script:
+  - python2 tests.py
+
